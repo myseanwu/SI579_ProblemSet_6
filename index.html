@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="./dist/main.js" defer></script>
+    <title>Main Page 👋 </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <!-- <li><a href="./todolist.html">ToDo List</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Home</h1>
+    <section>
+        <p>
+        Hi! This is Sean (Hsin-Yuan) Wu, second year of MSI student in data track.
+            I love traveling, but under the pandemic now I could only be in Ann Arbor for safe.
+        </p>
+        <img id="travel" src = "./imgs/simon-migaj-sa7KClvDBpo-unsplash.jpg" alt="Travel">
+        <p id='pic'>Photo by <a href="https://unsplash.com/@simonmigaj?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Simon Migaj</a> on <a href="https://unsplash.com/s/photos/travel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+        <br>
+        <div>
+            <h3><i class="fas fa-users"></i>Social Media</h3>
+            <table>
+                <tbody>
+                <tr>
+                    
+                    <td><i class="fab fa-linkedin"></i></td>
+                    <td><a href='https://www.linkedin.com/in/myseanwu/'>https://www.linkedin.com/in/myseanwu/</td>
+                </tr>
+                <tr>
+                    <td><i class="fab fa-github-square"></i></td>
+                    <td><a href="https://github.com/myseanwu">https://github.com/myseanwu</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+            <h3><i class="fas fa-stopwatch"></i>StopWatch</h3>
+            <div id="watch">0</div>
+            <button id="start">start</button>
+            <button id="stop">stop</button>
+            <button id="reset">reset</button>
+        </div>
+        <br>
+        <div>
+            <h4><i class="fas fa-mouse-pointer"></i>Your mouse pointer:</h4>
+            <p  id="pointing"></p>
+        </div>
+
+        <br>
+        <br>
+        <div class="myheader">
+            <h3 class="ProblemSet"><i class="fas fa-clipboard-list"></i> My To Do List </h3>
+            <input type="text" id="myInput" placeholder="Title...">
+            <input type="date" value="2021-02-22" id="duedate_input" aria-label="Due Date" />
+            <input type="time" id="duetime_input" value="00:00" aria-label="Due Time" />
+            <button id="adding">Add</button>
+            <p id='temp'></p>
+    
+        </div>
+
+        <div class="inbox">
+            <div class="item">
+              <input type="checkbox">
+              <ul>
+                <li>This is an inbox layout.</li>
+                <li>This line will be the added time</li>
+                <li class="due_time">due time</li>
+                </ul>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <ul>
+                <li>This is an inbox layout.</li>
+                <li>This line will be the added time</li>
+                <li class="due_time">due time</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <br>
+    <footer>
+        <details id="myDetails">
+        <summary>Sean (Hsin-Yuan) Wu &copy; 2021</summary>
+        <p>For SI 579 | All Rights Reserved.</p>
+        </details>
+	</footer>
+</body>
+</html>
